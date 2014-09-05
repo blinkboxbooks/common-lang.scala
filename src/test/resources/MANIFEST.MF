@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Vendor: com.blinkbox.books.zuul
+Implementation-Title: auth-service-public
+Implementation-Version: 0.17.4
+Implementation-Vendor-Id: com.blinkbox.books.zuul
+Specification-Vendor: com.blinkbox.books.zuul
+Specification-Title: auth-service-public
+Specification-Version: 0.17.4
+Main-Class: com.blinkbox.books.auth.server.WebApp
+
