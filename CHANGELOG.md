@@ -1,5 +1,15 @@
 # Change log
 
+## 0.2.1 ([#3](https://git.mobcastdev.com/Platform/common-lang/pull/3) 2014-11-24 14:37:10)
+
+Updated dependencies
+
+### Improvements
+
+- Updated version dependencies
+- Changed SBT file to multi-project style
+- Now only supports scala 2.11
+
 ## 0.2.0 ([#2](https://git.mobcastdev.com/Platform/common-lang/pull/2) 2014-09-10 10:25:07)
 
 Added some Joda time helpers
