@@ -1,5 +1,20 @@
 # Change log
 
+## 0.3.0 ([#4](https://git.mobcastdev.com/Platform/common-lang/pull/4) 2015-01-20 10:27:06)
+
+Minimal implementation of Sensitive[A]
+
+This adds a new feature of a `Sensitive[A]` trait to mark sensitive
+data (for example personally identifiable information such as name or
+email) which obscures the `toString` method such that it does not
+return a reversible string representation of the object.
+
+While `toString` could return something along the lines of
+`hash(sharedSecret || value)` which would give a value that is not
+personally identifiable but could be compared, the provision of the
+shared secret would make the implementation significantly more complex
+and thus this implementation uses a simple constant `******` value.
+
 ## 0.2.1 ([#3](https://git.mobcastdev.com/Platform/common-lang/pull/3) 2014-11-24 14:37:10)
 
 Updated dependencies
